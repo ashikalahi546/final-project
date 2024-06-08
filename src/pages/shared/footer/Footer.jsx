@@ -9,7 +9,7 @@ const Footer = () => {
               Medi<span className="text-secondary">care</span>
             </h2>
           </div>
-          <h2 className="text-xl font-medium">Top insurances</h2>
+          <h2 className="md:text-xl text-lg font-medium">Top insurances</h2>
         </div>
 
         <div className="pt-[33px] grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 lg:gap-0 gap-6">
