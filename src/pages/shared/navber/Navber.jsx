@@ -51,7 +51,7 @@ const Navber = () => {
             <img src="/image/shoping.png" alt="" />
           </Link>
           <li className="md:w-24 w-full">
-            <Link to="/login">
+            <Link to="/register">
               <button className="bg-primary px-5 py-2 w-full  text-white  md:text-sm text-xs  font-medium rounded-lg 2xl:-ml-0 md:-ml-6">
                 Join Us
               </button>

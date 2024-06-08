@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Register = () => {
   return (
     <div className="border md:w-[519px] mx-auto py-12  md:px-[70px] sm:px-10  rounded-2xl">
       <h1 className="lg:text-[40px] md:text-4xl text-2xl font-semibold text-center">
@@ -49,4 +49,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Register;
