@@ -8,15 +8,15 @@ const Navber = () => {
   const routes = [
     { id: 1, name: "Home", path: "/" },
     { id: 2, name: "Shop", path: "/shop" },
-    { id: 3, name: "Join" , path: "/joinmanager" },
+    
   ];
   return (
    <div className="xl:px-0 px-5 mt-2">
      <div className="flex items-center justify-between">
       <div className="w-9/12 ">
         <Link to="/">
-          <div className="flex items-center gap-4">
-            <img className="lg:w-auto w-10" src="/image/logo.png" alt="" />
+          <div className="flex items-center gap-3">
+            <img className="lg:w-[46px] w-9" src="/image/logo.png" alt="" />
             <h2 className="text-primary lg:text-3xl text-xl font-semibold">
               Medi<span className="text-secondary">care</span>
             </h2>
@@ -48,9 +48,10 @@ const Navber = () => {
             </NavLink>
           ))}
         </li>
+        <li><img src="/image/shoping.png" alt="" /></li>
         <li className="md:w-24 w-full">
           <Link to="/login">
-            <button className="bg-primary px-5 py-2 w-full  text-white  md:text-sm text-xs  font-medium rounded-lg hover:bg-pink-500 duration-100 delay-150">
+            <button className="bg-primary px-5 py-2 w-full  text-white  md:text-sm text-xs  font-medium rounded-lg ">
             Join Us
             </button>
           </Link>
